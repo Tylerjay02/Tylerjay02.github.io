@@ -1,0 +1,147 @@
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar-shadow {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.nav-link.active {
+  border-bottom: 2px solid #fff;
+}
+
+
+/* body transition */
+
+body {
+  transition: background-color 0.4s ease;
+}
+
+body.bg-changed {
+  background: #000;
+}
+
+#top, #about, #services, #projects, #contact {
+  scroll-margin: 56px;
+}
+
+
+.jumbo {
+  background: #000;
+  background-image: url("images/modal-bg-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.jumbo-txt {
+  h1, p {
+    color: #fff;
+  }
+}
+
+.jumbo-img {
+  max-height: 400px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+/* contact form */
+
+.custom-placeholder::placeholder {
+  color: #fff;
+  opacity: 1!important;
+}
+
+.is-invalid {
+  border: 1px solid #dc3545 !important;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+
+/* my skillset icons */
+
+.img-icon {
+  max-width: 100px;
+  height: auto;
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.img-icon {
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+
+.btn-container {
+  position: absolute;
+  top: 68px;
+  right: 12px;
+  background-color: #000;
+  border: 2px solid #212529;
+  border-radius: 10px;
+}
+
+.jumbo-toggle {
+  padding: 6px 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-size: 24px 24px;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.intro-img {
+  /* max-width: 376px;
+  max-height: 437px; */
+  border-radius: 5px;
+}
+
+
+.btn-close.collapsed {
+  transform: scaleY(-1);
+}
+
+.card-img-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 50%;
+  padding: 10px;
+  background-size: 50% 50%;
+}
+
+/* social icons  */
+
+.social-icon .icon-fill {
+  transition: transform 0.3s ease;
+  transform-origin: 50% 50%;
+}
+
+.social-icon:hover .icon-fill {
+  transform: scale(1.1);
+}
+
+.social-icon svg .icon-fill path {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.social-icon:hover svg .icon-fill path {
+  fill: #b7b7b7;
+}
+
+/* footer */
+
+footer p {
+  color: #fff;
+}
